@@ -1,5 +1,10 @@
 
-# Project Name
+# Image-Compressor
+
+Current average size compressions is: **87.5%** Smaller than the original File
+
+Test file was 1.5 mb, which is **1536 kb**
+Output file was **193 kb**
 
 <!-- --- DEPLOYMENT STATUS CODE ---
 
@@ -16,7 +21,7 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
 
 </details>
 -->
-<!---------------------------------------- SECTION DIVIDER ---------------------------------------->
+<!---------------------------------------- SECTION DIVIDER ---------------------------------------
 <details>
   <summary>
     <h2>
@@ -32,18 +37,57 @@ Deployment Status: [![Deploy to Heroku](https://github.com/hassanaftab93/REPO-NA
 <details>
   <summary>
     <h2>
-      📑 Steps
+      📑 Steps to use
     </h2>
   </summary>
 
-  Step 1
+  [Python | Download Latest Version](https://www.python.org/downloads/)
+  
+  <br>
+  <br>
+  Clone this Repo / Download the latest release
+
   ```bash
-    commands / code
+  git clone https://github.com/hassanaftab93/Image-Compressor.git
   ```
-  Step 2
+  
+  `cd` to the Project directory
+  
   ```bash
-    commands / code
+  cd /Path/To/Project
   ```
+  
+  Create a Virtual Environment for this Project
+
+  ```bash
+  python -m venv venv
+  ```
+
+  Activate Virtual Environment for this Project
+
+  Windows:
+  ```bash
+  source venv/Scripts/activate
+  ```
+  Linux/MacOS:
+  ```bash
+  source ./venv/bin/activate
+  ```
+
+  Install the Required Libraries
+
+  ```bash
+  pip install -r requirements.txt
+  ```
+
+  Place the Images to be compressed in `src` folder
+
+  Run the File 'compress.py'
+
+  ```python
+    python compress.py
+  ```
+
 </details>
 
 <!---------------------------------------- SECTION DIVIDER ---------------------------------------->
